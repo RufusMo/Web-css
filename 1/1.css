@@ -1,0 +1,12 @@
+.cell {
+    width: 30%;
+    padding-top: 30%;
+    margin: 1.5% 1.5%;
+    background-color: orange;
+    border-radius: 5px;
+    float: left;
+}
+
+.x {
+    clear: left;
+}
