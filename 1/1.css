@@ -1,5 +1,9 @@
+body{
+    margin: 0px 0px;
+}
 .container
 {
+    margin: 0px 0px;
     overflow: hidden;
 }
 .cell {
