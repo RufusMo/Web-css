@@ -1,3 +1,7 @@
+.container
+{
+    overflow: hidden;
+}
 .cell {
     width: 30vw;
     height: 30vw;
