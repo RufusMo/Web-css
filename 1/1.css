@@ -1,8 +1,6 @@
-body{
-    margin: 0px 0px;
-}
 .container
 {
+    margin: 1px 1px;
     overflow: hidden;
 }
 .cell {
