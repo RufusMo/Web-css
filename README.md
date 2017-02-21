@@ -1,2 +1,2 @@
 # Web-css
-用于学习css
+用于学习css.
