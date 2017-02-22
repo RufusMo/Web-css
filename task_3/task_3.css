@@ -2,10 +2,6 @@ body {
     margin: 0;
 }
 
-img {
-    max-width: 100%;
-}
-
 .container {
     background-color: #68cdd5;
     overflow: hidden;
@@ -17,15 +13,22 @@ img {
 }
 
 .back {
-    width: 10%;
     padding-top: 3%;
     padding-left: 5%;
 }
 
+.back img {
+    width: 10%;
+}
+
 .logo {
-    width: 28%;
-    margin: 0 auto;
     padding-top: 4%;
+    text-align: center;
+}
+
+.logo img {
+    width: 28%;
+    text-align: center;
 }
 
 .illustration {
@@ -40,7 +43,6 @@ img {
 }
 
 .footer {
-    width: 100%;
     overflow: hidden;
 }
 
