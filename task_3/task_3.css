@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    background-color: #68cdd5;
+    overflow: hidden;
+
+    width: 100%;
+
+    margin: 0 auto;
+    padding-bottom: 30%;
+}
+
+.back {
+    width: 10%;
+    padding-top: 3%;
+    padding-left: 5%;
+}
+
+.logo {
+    width: 28%;
+    margin: 0 auto;
+    padding-top: 4%;
+}
+
+.illustration {
+    padding: 0 15%;
+    margin-top: 16%;
+    margin-bottom: 25%;
+
+    font-family: "Microsoft YaHei UI Light";
+    color: white;
+    font-size: 4.4vw;
+    line-height: 9vw;
+}
+
+.footer {
+    width: 100%;
+    overflow: hidden;
+}
+
+.footer-icon {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.footer-icon img {
+    width: 25%;
+    text-align: center;
+}
+
+.footer-icon p {
+    font-family: "Microsoft YaHei UI Light";
+    color: white;
+    font-size: 4vw;
+    text-align: center;
+}
+
+
