@@ -3,13 +3,8 @@ body {
 }
 
 .container {
-    background-color: #68cdd5;
-    overflow: hidden;
-
-    width: 100%;
-
     margin: 0 auto;
-
+    background-color: #68cdd5;
 }
 
 .back {
