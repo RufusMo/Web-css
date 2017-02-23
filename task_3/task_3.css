@@ -38,7 +38,7 @@ body {
 
     font-family: "Microsoft YaHei UI Light";
     color: white;
-    font-size: 4.4vw;
+    font-size: 4.5vw;
     line-height: 9vw;
 }
 
@@ -62,6 +62,20 @@ body {
     color: white;
     font-size: 4vw;
     text-align: center;
+}
+
+@media only screen and (min-width: 640px){
+    .container {
+        width: 640px;
+        padding-bottom: 15%;
+    }
+    .illustration {
+        font-size: 29px;
+        line-height: 58px;
+    }
+    .footer-icon p {
+        font-size: 26px;
+    }
 }
 
 
