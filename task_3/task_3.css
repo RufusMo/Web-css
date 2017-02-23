@@ -9,7 +9,7 @@ body {
     width: 100%;
 
     margin: 0 auto;
-    padding-bottom: 30%;
+
 }
 
 .back {
@@ -43,6 +43,7 @@ body {
 }
 
 .footer {
+    padding-bottom: 20%;
     overflow: hidden;
 }
 
@@ -67,7 +68,6 @@ body {
 @media only screen and (min-width: 640px){
     .container {
         width: 640px;
-        padding-bottom: 15%;
     }
     .illustration {
         font-size: 29px;
