@@ -1,0 +1,102 @@
+html {
+    font-size: 12px;
+}
+
+body {
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100vw;
+    height: 100vh;
+    background-color: #eff0f4;
+}
+
+header {
+    background-color: #5ac0ce;
+    margin: 0;
+    padding: 0.5rem 1rem;
+}
+
+header a {
+    color: white;
+    font-size: 1rem;
+    line-height: 2rem;
+    text-decoration: none;
+}
+
+.a1 {
+    float: left;
+}
+
+.a2 {
+    float: right;
+}
+
+.signIn {
+    color: white;
+    font-size: 1rem;
+    line-height: 2rem;
+    text-align: center;
+    margin: auto 0;
+}
+
+.login {
+    margin-top: 0.5rem;
+    background-color: white;
+}
+
+.phone {
+    border: 0 none;
+    outline: none;
+
+    padding: 0 0 0 6rem;
+
+    line-height: 3.3rem;
+
+    font-size: 1rem;
+
+    background: url("image/phone.png") no-repeat 1rem center;
+    background-size: 3rem 1.8rem;
+}
+
+.password {
+    border: 0 none;
+    outline: none;
+
+    padding: 0 0 0 6rem;
+
+    line-height: 3.3rem;
+
+    font-size: 1rem;
+
+    background: url("image/lock.png") no-repeat 1rem center;
+    background-size: 3rem 1.8rem;
+}
+
+button {
+    margin-top: 2.3rem;
+    width: 100%;
+    height: 3.2rem;
+
+    background-color: #5ac0ce;
+    border: none;
+    outline: none;
+
+    color: white;
+    letter-spacing: 0.5rem;
+    font-size: 1rem;
+}
+
+.remark {
+    float: right;
+    padding: 0 1rem;
+}
+
+.remark a {
+    color: #5ac0ce;
+    font-size: 1rem;
+}
