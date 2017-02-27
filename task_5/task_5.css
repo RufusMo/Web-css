@@ -195,19 +195,21 @@ li {
     top: 50%;
     transform: translateY(-50%);
 
-    margin-left: 1rem;
+    margin-left:  1rem;
+padding-right: 1rem;
 
     color: #999999;
+    border-right: solid 1px #e1e5e7;
 }
 
 .label4 {
     display: inline-block;
-    margin-left: 9rem;
+
+    margin-left: 9.5rem;
 }
 
 .x{
     color: red;
-
 }
 footer {
     position: fixed;
