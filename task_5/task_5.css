@@ -1,6 +1,6 @@
 html {
     font-size: 62.5%;
-    font-family: 黑体;
+    font-family:黑体;
 }
 
 body {
@@ -18,11 +18,11 @@ header {
     right: 0;
 
     margin: 0;
-    padding: 0.5rem 1.5rem;
-
-    background-color: #5ac0ce;
+    padding: .5rem 1.5rem;
 
     line-height: 3rem;
+
+    background-color: #5ac0ce;
 }
 
 header a {
@@ -30,20 +30,20 @@ header a {
 }
 
 header img {
-    width: 0.88rem;
+    width: .88rem;
     height: 1.48rem;
     vertical-align: middle;
 }
 
 header p {
-    color: white;
-    font-size: 1.7rem;
-    font-family: "微软雅黑 Light";
-
-    text-align: center;
-    letter-spacing: 0.1rem;
-
     margin: auto;
+
+    font-family: "Microsoft YaHei UI Light";
+    font-size: 1.7rem;
+    letter-spacing: .1rem;
+    text-align: center;
+
+    color: white;
 }
 
 main {
@@ -65,7 +65,6 @@ main {
 
     background: url('image/bg.png') no-repeat;
     background-size: cover;
-
     color: white;
 }
 
@@ -86,6 +85,7 @@ main {
     top: 50%;
     left: 10rem;
     transform: translateY(-50%);
+
     vertical-align: middle;
 }
 
@@ -99,7 +99,7 @@ main {
     margin: 0;
 
     font-size: 1.7rem;
-    letter-spacing: 0.1rem;
+    letter-spacing: .1rem;
 }
 
 .age {
@@ -111,8 +111,9 @@ main {
 .age p {
     padding: 0;
     margin: 0;
+
     font-size: 1.3rem;
-    letter-spacing: 0.1rem;
+    letter-spacing: .1rem;
 }
 
 .pos {
@@ -120,11 +121,11 @@ main {
     clear: both;
 
     background: url("image/pos.png") no-repeat left center;
-    background-size: 0.81rem 1rem;
+    background-size: .81rem 1rem;
 
     padding-left: 1.4rem;
-    margin-top: 0.7rem;
-    margin-left: 0.2rem;
+    margin-top: .7rem;
+    margin-left: .2rem;
 }
 
 .pos p {
@@ -132,12 +133,13 @@ main {
     margin: 0;
 }
 
-
 .formTitle {
-    border-bottom: solid 0.1rem #e1e5e7;
     height: 4rem;
-    background: url("image/line1.png") no-repeat 0.6rem center;
+
+    background: url("image/line1.png") no-repeat .6rem center;
     background-size: 1.3rem 1.3rem;
+
+    border-bottom: solid 1px #e1e5e7;
 }
 
 .formTitle p {
@@ -147,7 +149,6 @@ main {
     font-size: 1.6rem;
 }
 
-/*-------------------------------------------------------*/
 ul {
     margin: 0;
     padding: 0 1.5rem;
@@ -156,45 +157,46 @@ ul {
 
 li {
     position: relative;
-    border-bottom: solid 1px #e1e5e7;
-    min-height: 4.2rem;
-}
 
-position: relative;
-padding: 1rem 1rem;
-min-height: 2rem;
-line-height: 2rem;
-border-bottom: 1px solid #ccc;
-overflow: auto;
+    padding: 1.5rem 1rem;
+    border-bottom: 1px solid #e1e5e7;
+
+    min-height: 2rem;
+    line-height: 2rem;
+}
 
 .label1 {
     position: absolute;
-    top:50%;
+    top: 50%;
     transform: translateY(-50%);
 
-    background: url("image/star.png") no-repeat left center;
-    background-size: 1.2rem ;
     padding: 0 1.6rem;
-    margin-left: 1rem;
-    line-height: 1.6rem;
+    margin: 0 0 0 1rem;
+
+    background: url("image/star.png") no-repeat left center;
+    background-size: 1.2rem;
 }
 
 .label2 {
     position: absolute;
-    top:50%;
+    top: 50%;
     transform: translateY(-50%);
 
+    padding: 0 1.6rem;
+    margin: 0 0 0 10rem;
+
     background: url("image/star.png") no-repeat left center;
-    background-size: 1.2rem ;
-    padding: 0.1rem 1.6rem;
-    margin-left: 10rem;
+    background-size: 1.2rem;
+
 }
 
 .label3 {
     position: absolute;
-    top:50%;
+    top: 50%;
     transform: translateY(-50%);
+
     margin-left: 1rem;
+
     color: #999999;
 }
 
@@ -203,8 +205,10 @@ overflow: auto;
     margin-left: 9rem;
 }
 
+.x{
+    color: red;
 
-/*----------------------------------------------------------------------------*/
+}
 footer {
     position: fixed;
     left: 0;
@@ -230,12 +234,15 @@ footer {
 button {
     height: 3.7rem;
     width: 100%;
-    border-radius: 0.5rem;
+    border-radius: .5rem;
+
     font-size: 1.6rem;
+
+    outline: none;
 }
 
 .message {
-    border: solid #5ac0ce 0.1rem;
+    border: solid #5ac0ce 1px;
     background-color: white;
     color: #5ac0ce;
 }
