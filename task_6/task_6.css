@@ -1,0 +1,175 @@
+html {
+    font-size: 62.5%;
+    font-family: 华文细黑;
+}
+
+body {
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    margin: 0;
+    padding: .3rem 1.3rem;
+    height: 3.1rem;
+
+    background-color: #5ac0ce;
+}
+
+header a {
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
+.header-btn1 {
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+
+    width: 11.5rem;
+    height: 3rem;
+    line-height: 3rem;
+
+    background-color: #51a8b4;
+    border-radius: .5rem;
+
+    text-align: center;
+}
+
+.header-btn2 {
+    float: right;
+
+    width: 5.75rem;
+    height: 3rem;
+    line-height: 3rem;
+
+    background-color: white;
+    border-radius: .5rem;
+}
+
+.header-btn1 a {
+    color: white;
+}
+
+.header-btn2 a {
+    color: #5ac0ce;
+}
+
+.map {
+    position: absolute;
+    top: 50%;
+    right: 1.3rem;
+    transform: translateY(-50%);
+}
+
+.map img {
+    width: 1.68rem;
+    height: 1.76rem;
+    vertical-align: middle;
+}
+
+/*----------------------------------------*/
+main {
+    position: absolute;
+    top: 3.7rem;
+    bottom: 4.2rem;
+    left: 0;
+    right: 0;
+
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.screen {
+    display: flex;
+    height: 3.3rem;
+    border-bottom: solid 1px #e1e5e7;
+}
+
+.screen div {
+    flex: 1;
+
+    background: url("image/shape.png") no-repeat right 1rem center;
+    background-size: .65rem .4rem;
+}
+.screen p{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
+    margin: 0;
+    padding: 0 1rem;
+
+    text-align: center;
+    font-size: 1.2rem;
+    color: #999999;
+}
+
+.eat {
+    border-left: solid 1px #e1e5e7;
+    border-right: solid 1px #e1e5e7;
+}
+
+/*----------------------------------------*/
+footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    height: 4.2rem;
+
+    border-top: solid 1px #e1e5e7;
+}
+
+.footer-btn-left {
+    float: left;
+    width: 50%;
+    line-height: 4.2rem;
+    text-align: center;
+}
+
+.footer-btn-left img {
+    width: 2rem;
+    height: 3.2rem;
+    vertical-align: middle;
+}
+
+.footer-btn-right {
+    float: right;
+    width: 50%;
+    line-height: 4.2rem;
+    text-align: center;
+}
+
+.footer-btn-right img {
+    width: 2rem;
+    height: 3.2rem;
+    vertical-align: middle;
+}
+
+.footer-btn-middle {
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    margin: 1px 0;
+    display: inline-block;
+    background-color: #5ac0ce;
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+}
+
+.footer-btn-middle img {
+    margin: 1.15rem;
+    width: 1.7rem;
+    height: 1.7rem;
+}
