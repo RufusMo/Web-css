@@ -16,11 +16,11 @@ header {
     right: 0;
 
     margin: 0;
-    padding: 0.5rem 1.4rem;
+    padding: 0.3rem 1.3rem;
 
     background-color: #5ac0ce;
 
-    line-height: 3rem;
+    line-height: 3.1rem;
 }
 
 header a {
@@ -46,7 +46,7 @@ header p {
 
 form {
     position: absolute;
-    top: 4rem;
+    top: 3.7rem;
     left: 0;
     right: 0;
     bottom: 0;
@@ -62,7 +62,7 @@ form {
     background-color: white;
 }
 
-.phone {
+.personal {
     border: 0 none;
     outline: none;
 
