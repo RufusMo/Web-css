@@ -1,16 +1,16 @@
-html {
-    font-size: 62.5%;
-    font-family: 华文细黑;
-}
-
-body {
+body, div, ul, ol, dl, dt, dd, li, dl,
+h1, h2, h3, h4, table, th, td, input, button, select,
+textarea {
     margin: 0;
+    padding: 0;
+    font: 62.5%  黑体, sans-serif;
 }
 
 ul li {
     list-style: none;
 }
 
+/*-----------------header---------------*/
 header {
     position: fixed;
     top: 0;
@@ -18,21 +18,28 @@ header {
     right: 0;
 
     margin: 0;
-    padding: .3rem 1.3rem;
-    height: 3.1rem;
+    padding: 0;
+    height: 3.7rem;
 
     background-color: #5ac0ce;
 }
 
 header a {
     text-decoration: none;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
+}
+
+header a:hover {
+    text-decoration: none;
 }
 
 .header-btn1 {
     position: absolute;
     right: 50%;
+    top: 50%;
     transform: translateX(50%);
+
+    margin-top: -1.5rem;
 
     width: 11.5rem;
     height: 3rem;
@@ -76,49 +83,130 @@ header a {
     vertical-align: middle;
 }
 
-/*----------------------------------------*/
-main {
-    position: absolute;
+/*-----------------筛选列-----------------*/
+.screen {
+    position: fixed;
     top: 3.7rem;
-    bottom: 4.2rem;
     left: 0;
     right: 0;
-
-    overflow-y: auto;
-    overflow-x: hidden;
 }
 
-.screen {
-    display: flex;
+.screen-row {
     height: 3.3rem;
     border-bottom: solid 1px #e1e5e7;
 }
 
-.screen div {
-    flex: 1;
+.screen-column {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
+    padding: 0;
+    text-align: center;
+    line-height: 3.3rem;
+}
+
+.screen-btn {
+    width: 100%;
+    height: 2rem;
 
     background: url("image/shape.png") no-repeat right 1rem center;
     background-size: .65rem .4rem;
+
+    border: none;
+    color: #999999;
+    font-size: 1rem;
 }
-.screen p{
+
+.menu {
+    min-width: 100%;
+    background-color: white;
+}
+
+.middle-btn {
+    border-left: solid 1px #e1e5e7;
+    border-right: solid 1px #e1e5e7;
+}
+
+/*----------------列表--------------------*/
+.main {
+    position: absolute;
+    top: 7rem;
+    bottom: 4.2rem;
+    left: 0;
+    right: 0;
+
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.row2 {
+    height: 7.6rem;
+    border-bottom: solid 1px #e1e5e7;
+}
+
+.row3 {
+    height: 2.53rem;
+}
+
+.row4 {
+    height: 2.53rem;
+
+}
+.row3 p{
     position: relative;
     top: 50%;
     transform: translateY(-50%);
 
     margin: 0;
-    padding: 0 1rem;
+    padding-left: 3rem;
 
-    text-align: center;
-    font-size: 1.2rem;
     color: #999999;
+    font-size: 1.3rem;
+    letter-spacing: .2rem;
+
+    overflow-x: hidden;
+    text-overflow: ellipsis;/*文字隐藏后添加省略号*/
+    white-space: nowrap;/*强制不换行*/
+}
+.row4 p{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
+    margin: 0;
+    padding-left: 3rem;
+
+    font-size: 1.3rem;
+    font-family: Arial, sans-serif;
+
+    overflow-x: hidden;
+    text-overflow: ellipsis;/*文字隐藏后添加省略号*/
+    white-space: nowrap;/*强制不换行*/
 }
 
-.eat {
-    border-left: solid 1px #e1e5e7;
-    border-right: solid 1px #e1e5e7;
+.price {
+    height: 7.6rem;
+    background: url("image/shape2.png") no-repeat right 1.2rem center;
+    background-size: .86rem 1.49rem;
 }
 
-/*----------------------------------------*/
+.price p {
+    position: absolute;
+    top: 50%;
+    right: 3rem;
+    transform: translateY(-50%);
+
+    padding: 0;
+    margin: 0;
+
+    color: red;
+    font-size: 1.4rem;
+
+    white-space: nowrap;
+}
+
+/*----------------footer------------------*/
 footer {
     position: fixed;
     left: 0;
@@ -160,7 +248,6 @@ footer {
     position: absolute;
     right: 50%;
     transform: translateX(50%);
-    margin: 1px 0;
     display: inline-block;
     background-color: #5ac0ce;
     border-radius: 50%;
