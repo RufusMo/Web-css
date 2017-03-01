@@ -3,7 +3,7 @@ h1, h2, h3, h4, table, th, td, input, button, select,
 textarea {
     margin: 0;
     padding: 0;
-    font: 62.5%  黑体, sans-serif;
+    font: 62.5% 黑体, sans-serif;
 }
 
 ul li {
@@ -84,19 +84,21 @@ header a:hover {
 }
 
 /*-----------------筛选列-----------------*/
-.screen {
+.selectCol {
     position: fixed;
     top: 3.7rem;
     left: 0;
     right: 0;
+
+    z-index: 10000;
 }
 
-.screen-row {
+.selectCol-row {
     height: 3.3rem;
     border-bottom: solid 1px #e1e5e7;
 }
 
-.screen-column {
+.selectCol-column {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
@@ -106,7 +108,7 @@ header a:hover {
     line-height: 3.3rem;
 }
 
-.screen-btn {
+.selectCol-btn {
     width: 100%;
     height: 2rem;
 
@@ -120,7 +122,6 @@ header a:hover {
 
 .menu {
     min-width: 100%;
-    background-color: white;
 }
 
 .middle-btn {
@@ -140,20 +141,21 @@ header a:hover {
     overflow-y: auto;
 }
 
-.row2 {
+.list-row {
     height: 7.6rem;
     border-bottom: solid 1px #e1e5e7;
 }
 
-.row3 {
+.row1 {
     height: 2.53rem;
 }
 
-.row4 {
+.middle-row {
     height: 2.53rem;
 
 }
-.row3 p{
+
+.col-xs-7 p {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
@@ -161,28 +163,20 @@ header a:hover {
     margin: 0;
     padding-left: 3rem;
 
+    font-size: 1.3rem;
+
+    overflow-x: hidden;
+    text-overflow: ellipsis; /*文字隐藏后添加省略号*/
+    white-space: nowrap; /*强制不换行*/
+}
+
+.row1 p {
     color: #999999;
-    font-size: 1.3rem;
     letter-spacing: .2rem;
-
-    overflow-x: hidden;
-    text-overflow: ellipsis;/*文字隐藏后添加省略号*/
-    white-space: nowrap;/*强制不换行*/
 }
-.row4 p{
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
 
-    margin: 0;
-    padding-left: 3rem;
-
-    font-size: 1.3rem;
+.middle-row p {
     font-family: Arial, sans-serif;
-
-    overflow-x: hidden;
-    text-overflow: ellipsis;/*文字隐藏后添加省略号*/
-    white-space: nowrap;/*强制不换行*/
 }
 
 .price {
@@ -247,16 +241,20 @@ footer {
 .footer-btn-middle {
     position: absolute;
     right: 50%;
+    top: 50%;
     transform: translateX(50%);
+
+    margin-top: -1.85rem;
+
     display: inline-block;
     background-color: #5ac0ce;
     border-radius: 50%;
-    width: 4rem;
-    height: 4rem;
+    width: 3.7rem;
+    height: 3.7rem;
 }
 
 .footer-btn-middle img {
-    margin: 1.15rem;
+    margin: 1rem;
     width: 1.7rem;
     height: 1.7rem;
 }
