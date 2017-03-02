@@ -1,0 +1,182 @@
+body, header, div, ul, ol, dl, dt, dd, li, dl, p,
+h1, h2, h3, h4, table, th, td, input, button, select,
+textarea {
+    margin: 0;
+    padding: 0;
+    font: 62.5% 黑体, sans-serif;
+}
+
+ul li {
+    list-style: none;
+}
+
+.row {
+    margin: 0;
+}
+
+/*----------------------*/
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    height: 5rem;
+
+    background-color: #29bde0;
+}
+
+.menu {
+    position: absolute;
+    top: 50%;
+    left: 1.5rem;
+    transform: translateY(-50%);
+}
+
+.menu img {
+    width: 1.7rem;
+    height: 1.35rem;
+}
+
+/*------------------------*/
+main {
+    position: absolute;
+    top: 5rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    background-color: #f0f0f0;
+}
+
+/*------------------------*/
+.back-area {
+    position: absolute;
+    left: 0;
+    right: 0;
+
+    margin: 1rem 2rem;
+    padding: 0;
+
+    background-color: white;
+
+    border: solid 1px #c9c9c9;
+}
+
+.back-btn {
+    display: block;
+    height: 5rem;
+    line-height: 5rem;
+
+    background: url("image/back_icon.png") right .5rem center no-repeat;
+    background-size: 1.2rem 2rem;
+
+    font-size: 1.8rem;
+    color: #9a9a9a;
+    text-align: center;
+    text-decoration: none;
+}
+
+.back-area a:hover {
+    text-decoration: none;
+    color: #9a9a9a;
+}
+
+/*-----------------------*/
+.selection {
+    position: absolute;
+    top: 6.5rem;
+    left: 0;
+    right: 0;
+    bottom: 2rem;
+
+    margin: 1rem 2rem;
+
+    background: url("image/right_icon.png") right .5rem center no-repeat white;
+    background-size: 1.4rem 2.8rem;
+
+    border: solid 1px #c9c9c9;
+}
+
+/*-------------------*/
+.title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    height: 4rem;
+
+    border-bottom: solid 1px #fdd793;
+}
+
+.title p {
+    line-height: 4rem;
+    font-size: 1.8rem;
+    text-align: center;
+    color: #fbb435;
+}
+
+/*-----------------------------*/
+.game-list {
+    position: absolute;
+    top: 4rem;
+    left: 0;
+    right: 0;
+    bottom: 1.5rem;
+
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.white {
+    height: 1.5rem;
+}
+
+.game-version {
+    height: 10rem;
+}
+
+.game-choose-btn {
+    display: block;
+    margin: 0 2.5rem;
+
+    height: 6rem;
+    line-height: 5.5rem;
+
+    font-size: 1.8rem;
+    text-align: center;
+    color: white;
+
+    background-color: #29bde0;
+}
+
+.game-choose-btn:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.game-number {
+    margin: 0 2.5rem;
+    height: 4rem;
+}
+
+.game-number p {
+    line-height: 4rem;
+    text-align: center;
+    font-size: 1rem;
+    color: #9a9a9a;
+    letter-spacing: 0.1rem;
+}
+
+/*-------------------------------------------*/
+.game-list-bottom {
+    position: absolute;
+
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    height: 1.5rem;
+}
+
