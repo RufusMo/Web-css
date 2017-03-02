@@ -140,45 +140,57 @@ header a:hover {
 }
 
 .list-row {
-    height: 7.6rem;
+    height: 7.5rem;
     border-bottom: solid 1px #e1e5e7;
 }
 
-.row1 {
-    height: 2.53rem;
-}
-
-.middle-row {
-    height: 2.53rem;
-
-}
-
-.col-xs-7 p {
+.info p {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
 
     margin: 0;
-    padding-left: 3rem;
+    padding-left: 0;
 
     font-size: 1.3rem;
 
     overflow-x: hidden;
     text-overflow: ellipsis; /*文字隐藏后添加省略号*/
     white-space: nowrap; /*强制不换行*/
-}
 
-.row1 p {
     color: #999999;
     letter-spacing: .2rem;
 }
 
+.info-row {
+    height: 2.5rem;
+}
+
+.info-row div {
+    float: left;
+    height: 2rem;
+    width: 3rem;
+
+    background-size: 1.2rem 3.3rem;
+}
+
+.icon1 {
+    background: url("image/sprite.png") 0.8rem 0.65rem no-repeat;
+}
+
+.icon2 {
+    background: url("image/sprite.png") 0.8rem -1.45rem no-repeat;
+}
+
 .middle-row p {
+    padding-left: 3rem;
+    color: black;
     font-family: Arial, sans-serif;
+    letter-spacing: 0;
 }
 
 .price {
-    height: 7.6rem;
+    height: 7.5rem;
     background: url("image/shape2.png") no-repeat right 1.2rem center;
     background-size: .86rem 1.49rem;
 }
