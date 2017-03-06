@@ -1,0 +1,113 @@
+body, header, div, ul, ol, dl, dt, dd, li, dl, p,
+h1, h2, h3, h4, table, th, td, input, button, select,
+textarea {
+    margin: 0;
+    padding: 0;
+    font: 62.5% 黑体, sans-serif;
+}
+
+ul li {
+    list-style: none;
+}
+
+.row {
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    height: 5rem;
+
+    background-color: #29bde0;
+    border-bottom: solid 1px white;
+}
+
+header p {
+    position: absolute;
+    top: 40%;
+    right: 50%;
+    transform: translateX(50%);
+
+    color: white;
+    font-size: 1.8rem;
+
+    letter-spacing: .2rem;
+}
+
+.home-btn {
+    position: absolute;
+    top: 50%;
+    left: 1.5rem;
+    transform: translateY(-30%);
+}
+
+.home-btn img {
+    width: 2rem;
+    height: 1.68rem;
+}
+
+.help-btn {
+    position: absolute;
+    top: 50%;
+    right: 1.5rem;
+    transform: translateY(-30%);
+}
+
+.help-btn img {
+    width: 1.98rem;
+    height: 1.8rem;
+}
+
+/*-------------------------------------*/
+footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    height: 6rem;
+
+    background-color: rgba(41, 189, 224, 0.5);
+}
+
+.leftButton {
+    line-height: 6rem;
+
+    float: left;
+    margin-left: 5%;
+
+    width: 43%;
+}
+
+.rightButton {
+    line-height: 6rem;
+
+    float: right;
+    margin-right: 5%;
+
+    width: 43%;
+}
+
+button {
+    height: 3.7rem;
+    width: 100%;
+    border-radius: .5rem;
+
+    font-size: 1.8rem;
+
+    outline: none;
+    color: white;
+    border: none;
+}
+
+.again {
+    background-color: #f66f6f;
+}
+
+.update {
+    background-color: #fbb435;
+}
