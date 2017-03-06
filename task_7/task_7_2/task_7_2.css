@@ -128,34 +128,77 @@ main {
 .vote-area-row {
     margin: 0 auto;
     width: 85vw;
-    height: 9rem;
+    height: 10rem;
+}
 
+.grid {
+    padding: 0;
+    margin: 0 auto;
 }
 
 .cell {
-    height: 9rem;
-
-    background-color: #29bde0;
+    display: block;
+    margin: auto;
+    width: 6rem;
+    border: solid 0.2rem white;
+    color: black;
 }
 
-.asd {
-    margin: auto;
-    height: 5rem;
-    width: 5rem;
-
-    border: solid 0.2rem white;
+.cell-1 {
+    height: 4rem;
     background-color: #f5c97b;
 }
 
-.zxc {
-
-    /*height: 3rem;*/
+.cell-1 p {
+    line-height: 4rem;
+    text-align: center;
+    font-size: 1.3rem;
 }
 
-.qwe {
-    float: left;
-    /*height: 1.6rem;*/
+.cell-2 {
+    height: 1.6rem;
     background-color: #83b09a;
+}
+
+.cell-2 p {
+    line-height: 1.6rem;
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+}
+
+.cell-hidden {
+    height: 3.5rem;
+    width: 6rem;
+    margin: 0 auto;
+    visibility: hidden;
+}
+
+.cell-hidden-pic {
+    margin: 0;
+    padding: 0;
+
+    height: 3.5rem;
+}
+
+.cell-hidden-pic1 {
+    background: url("image/killer.png") no-repeat center;
+    background-size: 1.35rem 1.35rem;
+}
+
+.cell-hidden-pic2 {
+    background: url("image/judge.png") no-repeat center;
+    background-size: 1.35rem 1.35rem;
+}
+
+.cell-hidden-pic3 {
+    background: url("image/sniper.png") no-repeat center;
+    background-size: 1.35rem 1.35rem;
+}
+
+.cell-hidden-pic4 {
+    background: url("image/doctor.png") no-repeat center;
+    background-size: 1.35rem 1.35rem;
 }
 
 /*----------------------------*/
