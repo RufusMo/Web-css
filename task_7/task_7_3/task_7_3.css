@@ -63,6 +63,70 @@ header p {
 }
 
 /*-------------------------------------*/
+main {
+    position: absolute;
+    top: 5rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    background-color: #29bde0;
+
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.main {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    margin-left: calc(100vw - 100%);
+}
+
+.conclusion{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+.conclusion-img {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.conclusion-img img {
+
+    height: 60%;
+    width: 60%;
+}
+
+.conclusion-text p {
+    margin: 1rem 3.5rem 2.5rem 3.5rem;
+    font-size: 1.8rem;
+    font-family: "Microsoft YaHei UI Light", sans-serif;
+    font-weight: 800;
+    color: #ffc865;
+    letter-spacing: 0.1rem;
+
+    text-align: justify;
+    text-justify: inter-ideograph;
+}
+
+.summarize{
+
+}
+
+.details{
+
+}
+
+
+
+/*-------------------------------------*/
 footer {
     position: fixed;
     left: 0;
@@ -72,6 +136,7 @@ footer {
     height: 6rem;
 
     background-color: rgba(41, 189, 224, 0.5);
+
 }
 
 .leftButton {
