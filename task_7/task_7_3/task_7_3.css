@@ -70,42 +70,29 @@ main {
     right: 0;
     bottom: 0;
 
-    background-color: #29bde0;
+    background-color: white;
 
     overflow-y: auto;
     overflow-x: hidden;
 }
 
-.main {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-
-    margin-left: calc(100vw - 100%);
+.conclusion {
+    padding-top: 1rem;
+    background-color: #29bde0;
 }
 
-.conclusion{
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-
-}
 .conclusion-img {
     text-align: center;
-    margin-top: 1rem;
 }
 
 .conclusion-img img {
-
-    height: 60%;
-    width: 60%;
+    height: 55%;
+    width: 55%;
 }
 
 .conclusion-text p {
-    margin: 1rem 3.5rem 2.5rem 3.5rem;
+    margin: 1rem 3.5rem;
+
     font-size: 1.8rem;
     font-family: "Microsoft YaHei UI Light", sans-serif;
     font-weight: 800;
@@ -116,15 +103,53 @@ main {
     text-justify: inter-ideograph;
 }
 
-.summarize{
-
+.summarize {
+    padding: 1rem 0;
 }
 
-.details{
-
+.summarize div {
+    margin: 0 3.5rem;
 }
 
+.summarize p {
+    line-height: 1.8rem;
+    color: white;
+    font-size: 1.4rem;
+    letter-spacing: 0.1rem;
+}
 
+/*-----------------------*/
+.details-row {
+    padding: 0 3.5rem;
+    border-bottom: solid 1px #dddddd;
+}
+
+.row-1-1 {
+    line-height: 3rem;
+    float: left;
+    font-size: 1.7rem;
+}
+
+.row-1-2 {
+    line-height: 3rem;
+    float: right;
+    color: #a6a6a6;
+    font-size: 1.4rem;
+}
+
+.row-2 p, .row-3 p {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color: #a6a6a6;
+}
+
+.row-3 {
+    margin-bottom: 1rem;
+}
+
+.blank {
+    height: 6rem;
+}
 
 /*-------------------------------------*/
 footer {
