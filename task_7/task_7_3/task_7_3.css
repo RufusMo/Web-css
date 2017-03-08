@@ -86,7 +86,7 @@ main {
 }
 
 .conclusion-img img {
-    width: 11.33rem;
+    width: 55%;
     max-width: 100%;
     max-height: 100%;
 }
@@ -201,4 +201,16 @@ button {
 
 .update {
     background-color: #fbb435;
+}
+
+@media only screen and (min-width: 640px){
+    main {
+        width: 640px;
+    }
+    header{
+        width: 640px;
+    }
+    footer{
+        width: 640px;
+    }
 }
