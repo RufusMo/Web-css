@@ -171,7 +171,8 @@ main {
     height: 3.5rem;
     width: 6rem;
     margin: 0 auto;
-    visibility: hidden;
+    opacity: 0;
+    /*visibility: hidden;*/
 }
 
 .cell-hidden-pic {
